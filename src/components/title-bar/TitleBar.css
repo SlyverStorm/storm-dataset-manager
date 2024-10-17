@@ -1,0 +1,57 @@
+.titlebar {
+    height: 40px;
+    background: #6e8081;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titlebar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.titlebar-app-title {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlebar-nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.titlebar-spacer {
+    flex-grow: 1;
+}
+
+.titlebar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    margin: 0 0 0 4px;
+}
+
+.titlebar-button:hover {
+    background: #7d8b8b;
+}
+
+.title-button-close:hover {
+    background: #df4040;
+}
+
+.title-window-control-buttons {
+    height: 15px;
+    width: 20px;
+}
